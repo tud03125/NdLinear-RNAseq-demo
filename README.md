@@ -53,19 +53,19 @@ python Applying_NdLinear_to_Bioinformatics.py
 
 This will:
 
-Load Salmon counts (salmon.merged.gene_counts.tsv) and sample sheet.
+1. Load Salmon counts (salmon.merged.gene_counts.tsv) and sample sheet.
 
-Log₂-transform + variance filter (top 100 genes).
+2. Log₂-transform + variance filter (top 100 genes).
 
-ElasticNet feature selection on scaled data.
+3. ElasticNet feature selection on scaled data.
 
-PCA reduction to 2–5 components.
+4. PCA reduction to 2–5 components.
 
-Split into train/val/test (80/10/10%).
+5. Split into train/val/test (80/10/10%).
 
-Nested CV to select hyperparameters.
+6. Nested CV to select hyperparameters.
 
-Final training + test evaluation with bootstrap CIs and permutation test.
+7. Final training + test evaluation with bootstrap CIs and permutation test.
 
 ## Results
 
