@@ -28,19 +28,26 @@ This repository demonstrates how to apply the [NdLinear](https://github.com/ense
 
 ## Installation & Usage
 
-```bash
+
 # 1) Clone the repository
+```bash
 git clone https://github.com/tud03125/NdLinear-RNAseq-demo.git
 cd NdLinear-RNAseq-demo
+```
 
 # 2) Create and activate a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate   # on Windows use: venv\Scripts\activate
+```
 
 # 3) Install dependencies
+```bash
 pip install ndlinear pandas numpy scikit-learn torch
+```
 
 # 4) Run the demo pipeline
+```bash
 python Applying_NdLinear_to_Bioinformatics.py
 ```
 
