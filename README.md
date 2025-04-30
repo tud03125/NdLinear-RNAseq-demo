@@ -24,7 +24,7 @@ This repository demonstrates how to apply the [NdLinear](https://github.com/ense
 
 - Python 3.8+  
 - [ndlinear](https://pypi.org/project/ndlinear)  
-- pandas, numpy, scikit-learn, torch :contentReference[oaicite:4]{index=4}  
+- pandas, numpy, scikit-learn, torch 
 
 ## Installation & Usage
 
