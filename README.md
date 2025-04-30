@@ -10,7 +10,7 @@
 
 ## Summary
 
-This repository demonstrates how to apply the [NdLinear](https://github.com/ensemble-core/NdLinear) library to bulk RNA-seq data (GSE126848), covering data loading, variance filtering, ElasticNet feature selection, PCA reduction, and binary classification with rigorous nested cross-validation and permutation testing. :contentReference[oaicite:3]{index=3}
+This repository demonstrates how to apply the [NdLinear](https://github.com/ensemble-core/NdLinear) library to bulk RNA-seq data (GSE126848), covering data loading, variance filtering, ElasticNet feature selection, PCA reduction, and binary classification with rigorous nested cross-validation and permutation testing.
 
 ## Features
 
