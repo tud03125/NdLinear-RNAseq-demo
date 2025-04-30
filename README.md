@@ -71,11 +71,11 @@ Final training + test evaluation with bootstrap CIs and permutation test.
 
 After running, you’ll see:
 
-Fold-by-fold CV accuracies
+* Fold-by-fold CV accuracies
 
-Test accuracy + 95% bootstrap CI
+* Test accuracy + 95% bootstrap CI
 
-Permutation test p-value
+* Permutation test p-value
 
 ## Contributing
 
@@ -110,8 +110,8 @@ SOFTWARE.
 
 ## Acknowledgements
 
--- Core linear layer logic from Ensemble-core/NdLinear (Apache-2.0) 
+* Core linear layer logic from Ensemble-core/NdLinear (Apache-2.0) 
 
--- This README structure follows GitHub’s “About READMEs” guidance 
+* This README structure follows GitHub’s “About READMEs” guidance 
 
--- Best practices inspired by FreeCodeCamp’s README guide 
+* Best practices inspired by FreeCodeCamp’s README guide 
