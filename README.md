@@ -77,6 +77,15 @@ After running, you’ll see:
 
 * Permutation test p-value
 
+## Caveats & Limitations
+
+> ⚠️ **High-Dimension, Low-Sample-Size (HDLSS) Warning**  
+> This demo uses only 50 samples but thousands of gene features. In such HDLSS settings, even extremely simple models (e.g. nearest-centroid on 2 PCA axes) can “memorize” the data and achieve 100 % accuracy without learning generalizable biology.  
+>
+> - **Overfitting risk:** Perfect cross-validation and test results here likely reflect dataset idiosyncrasies rather than a reproducible signal.  
+> - **Permutation tests & bootstrap CIs:** We include permutation p-values and bootstrap confidence intervals to gauge how much of this performance may occur by chance.  
+> - **Next steps:** To build robust models, consider transfer learning from large RNA-seq compendia, synthetic data augmentation, or collapsing features into known pathways.  
+
 ## Contributing
 
 Contributions welcome! Please fork, open an issue, or submit a pull request.
